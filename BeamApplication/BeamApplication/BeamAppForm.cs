@@ -11,25 +11,27 @@ using System.Windows.Forms;
 using TSG = Tekla.Structures.Geometry3d;
 using Tekla.Structures.Model;
 
-namespace BeamApplication
+namespace TeklaOpenAPIFundamentals
 {
-    public partial class Form1 : Form
+    public partial class BeamAppForm : Form
     {
-        public Form1()
+        public BeamAppForm()
         {
             InitializeComponent();
         }
 
         private void InsertBeam(string beamName)
         {
+            //Get current model
             Model myModel = new Model();
             if(myModel.GetConnectionStatus())
             {
+                //Pick start and end point for beam
                 Tekla.Structures.Model.UI.Picker _picker = new Tekla.Structures.Model.UI.Picker();
-
                 TSG.Point startPoint = _picker.PickPoint("Pick the start point");
                 TSG.Point endPoint = _picker.PickPoint("Pick the end point");
 
+                //Set Beam properties
                 Beam myBeam = new Beam(startPoint,endPoint);
                 myBeam.Profile.ProfileString = "HEA400";
                 myBeam.Material.MaterialString = "S235";

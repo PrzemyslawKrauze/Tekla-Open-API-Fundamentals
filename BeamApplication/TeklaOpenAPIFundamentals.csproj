@@ -82,16 +82,40 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="BeamApplication\BeamAppForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="BeamApplication\BeamAppForm.Designer.cs">
+      <DependentUpon>BeamAppForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ContourPlateApplication\ContourPlateForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ContourPlateApplication\ContourPlateForm.Designer.cs">
+      <DependentUpon>ContourPlateForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainMenu.Designer.cs">
+      <DependentUpon>MainMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModifyObjectForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModifyObjectForm.Designer.cs">
+      <DependentUpon>ModifyObjectForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="BeamApplication\BeamAppForm.resx">
+      <DependentUpon>BeamAppForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ContourPlateApplication\ContourPlateForm.resx">
+      <DependentUpon>ContourPlateForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainMenu.resx">
+      <DependentUpon>MainMenu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

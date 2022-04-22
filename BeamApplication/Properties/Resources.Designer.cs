@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace BeamApplication.Properties
+namespace TeklaOpenAPIFundamentals.Properties
 {
 
 
