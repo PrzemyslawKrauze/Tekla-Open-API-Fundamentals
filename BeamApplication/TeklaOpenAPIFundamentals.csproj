@@ -100,10 +100,10 @@
     <Compile Include="MainMenu.Designer.cs">
       <DependentUpon>MainMenu.cs</DependentUpon>
     </Compile>
-    <Compile Include="ModifyObjectForm.cs">
+    <Compile Include="ModifyObjectApplication\ModifyObjectForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ModifyObjectForm.Designer.cs">
+    <Compile Include="ModifyObjectApplication\ModifyObjectForm.Designer.cs">
       <DependentUpon>ModifyObjectForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
@@ -116,6 +116,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MainMenu.resx">
       <DependentUpon>MainMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModifyObjectApplication\ModifyObjectForm.resx">
+      <DependentUpon>ModifyObjectForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

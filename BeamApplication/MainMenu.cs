@@ -26,5 +26,10 @@ namespace TeklaOpenAPIFundamentals
         {
             new ContourPlateAppForm().Show();
         }
+
+        private void ModifyObjectButton_Click(object sender, EventArgs e)
+        {
+            new ModifyObjectForm().Show();
+        }
     }
 }

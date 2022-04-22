@@ -30,6 +30,7 @@
         {
             this.BeamApplicationButton = new System.Windows.Forms.Button();
             this.ContourPlateButton = new System.Windows.Forms.Button();
+            this.ModifyObjectButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // BeamApplicationButton
@@ -52,11 +53,22 @@
             this.ContourPlateButton.UseVisualStyleBackColor = true;
             this.ContourPlateButton.Click += new System.EventHandler(this.ContourPlateButton_Click);
             // 
+            // ModifyObjectButton
+            // 
+            this.ModifyObjectButton.Location = new System.Drawing.Point(12, 70);
+            this.ModifyObjectButton.Name = "ModifyObjectButton";
+            this.ModifyObjectButton.Size = new System.Drawing.Size(220, 23);
+            this.ModifyObjectButton.TabIndex = 2;
+            this.ModifyObjectButton.Text = "ModifyObjectApplication";
+            this.ModifyObjectButton.UseVisualStyleBackColor = true;
+            this.ModifyObjectButton.Click += new System.EventHandler(this.ModifyObjectButton_Click);
+            // 
             // MainMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(244, 270);
+            this.Controls.Add(this.ModifyObjectButton);
             this.Controls.Add(this.ContourPlateButton);
             this.Controls.Add(this.BeamApplicationButton);
             this.Name = "MainMenu";
@@ -69,5 +81,6 @@
 
         private System.Windows.Forms.Button BeamApplicationButton;
         private System.Windows.Forms.Button ContourPlateButton;
+        private System.Windows.Forms.Button ModifyObjectButton;
     }
 }
