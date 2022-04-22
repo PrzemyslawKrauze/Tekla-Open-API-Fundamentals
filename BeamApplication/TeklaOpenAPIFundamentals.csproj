@@ -88,6 +88,12 @@
     <Compile Include="BeamApplication\BeamAppForm.Designer.cs">
       <DependentUpon>BeamAppForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="BoltArray.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BoltArray.Designer.cs">
+      <DependentUpon>BoltArray.cs</DependentUpon>
+    </Compile>
     <Compile Include="ContourPlateApplication\ContourPlateForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -110,6 +116,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="BeamApplication\BeamAppForm.resx">
       <DependentUpon>BeamAppForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BoltArray.resx">
+      <DependentUpon>BoltArray.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ContourPlateApplication\ContourPlateForm.resx">
       <DependentUpon>ContourPlateForm.cs</DependentUpon>
