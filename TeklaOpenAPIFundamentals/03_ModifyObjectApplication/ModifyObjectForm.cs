@@ -19,7 +19,6 @@ namespace TeklaOpenAPIFundamentals
         private Position.PlaneEnum planePosition = Position.PlaneEnum.MIDDLE;
         private Position.DepthEnum depthPosition = Position.DepthEnum.MIDDLE;
         private Position.RotationEnum rotationPosition = Position.RotationEnum.TOP;
-        private string name = string.Empty;
         public ModifyObjectForm()
         {
             InitializeComponent();
