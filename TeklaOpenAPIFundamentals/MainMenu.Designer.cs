@@ -33,6 +33,8 @@
             this.ModifyObjectButton = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.CutAndFittingButtton = new System.Windows.Forms.Button();
+            this.AddWeldButton = new System.Windows.Forms.Button();
+            this.EnumerateButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // BeamApplicationButton
@@ -85,11 +87,33 @@
             this.CutAndFittingButtton.UseVisualStyleBackColor = true;
             this.CutAndFittingButtton.Click += new System.EventHandler(this.CutAndFittingButtton_Click);
             // 
+            // AddWeldButton
+            // 
+            this.AddWeldButton.Location = new System.Drawing.Point(12, 157);
+            this.AddWeldButton.Name = "AddWeldButton";
+            this.AddWeldButton.Size = new System.Drawing.Size(220, 23);
+            this.AddWeldButton.TabIndex = 5;
+            this.AddWeldButton.Text = "AddWeldApplication";
+            this.AddWeldButton.UseVisualStyleBackColor = true;
+            this.AddWeldButton.Click += new System.EventHandler(this.AddWeldButton_Click);
+            // 
+            // EnumerateButton
+            // 
+            this.EnumerateButton.Location = new System.Drawing.Point(12, 186);
+            this.EnumerateButton.Name = "EnumerateButton";
+            this.EnumerateButton.Size = new System.Drawing.Size(220, 23);
+            this.EnumerateButton.TabIndex = 6;
+            this.EnumerateButton.Text = "EnumerateApplication";
+            this.EnumerateButton.UseVisualStyleBackColor = true;
+            this.EnumerateButton.Click += new System.EventHandler(this.EnumerateButton_Click);
+            // 
             // MainMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(244, 270);
+            this.Controls.Add(this.EnumerateButton);
+            this.Controls.Add(this.AddWeldButton);
             this.Controls.Add(this.CutAndFittingButtton);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.ModifyObjectButton);
@@ -108,5 +132,7 @@
         private System.Windows.Forms.Button ModifyObjectButton;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button CutAndFittingButtton;
+        private System.Windows.Forms.Button AddWeldButton;
+        private System.Windows.Forms.Button EnumerateButton;
     }
 }

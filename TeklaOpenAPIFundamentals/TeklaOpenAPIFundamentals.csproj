@@ -82,35 +82,41 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AddWeldApplication\AddWeldForm.cs">
+    <Compile Include="06_AddWeldApplication\AddWeldForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AddWeldApplication\AddWeldForm.Designer.cs">
+    <Compile Include="06_AddWeldApplication\AddWeldForm.Designer.cs">
       <DependentUpon>AddWeldForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="BeamApplication\BeamAppForm.cs">
+    <Compile Include="01_BeamApplication\BeamAppForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="BeamApplication\BeamAppForm.Designer.cs">
+    <Compile Include="01_BeamApplication\BeamAppForm.Designer.cs">
       <DependentUpon>BeamAppForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="BoltArrayApplication\BoltArray.cs">
+    <Compile Include="04_BoltArrayApplication\BoltArray.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="BoltArrayApplication\BoltArray.Designer.cs">
+    <Compile Include="04_BoltArrayApplication\BoltArray.Designer.cs">
       <DependentUpon>BoltArray.cs</DependentUpon>
     </Compile>
-    <Compile Include="ContourPlateApplication\ContourPlateForm.cs">
+    <Compile Include="02_ContourPlateApplication\ContourPlateForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ContourPlateApplication\ContourPlateForm.Designer.cs">
+    <Compile Include="02_ContourPlateApplication\ContourPlateForm.Designer.cs">
       <DependentUpon>ContourPlateForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="CutAndFittingApplication\CutAndFittingForm.cs">
+    <Compile Include="05_CutAndFittingApplication\CutAndFittingForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CutAndFittingApplication\CutAndFittingForm.Designer.cs">
+    <Compile Include="05_CutAndFittingApplication\CutAndFittingForm.Designer.cs">
       <DependentUpon>CutAndFittingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="07_EnumerateApplication\EnumerateForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="07_EnumerateApplication\EnumerateForm.Designer.cs">
+      <DependentUpon>EnumerateForm.cs</DependentUpon>
     </Compile>
     <Compile Include="MainMenu.cs">
       <SubType>Form</SubType>
@@ -118,30 +124,36 @@
     <Compile Include="MainMenu.Designer.cs">
       <DependentUpon>MainMenu.cs</DependentUpon>
     </Compile>
-    <Compile Include="ModifyObjectApplication\ModifyObjectForm.cs">
+    <Compile Include="03_ModifyObjectApplication\ModifyObjectForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ModifyObjectApplication\ModifyObjectForm.Designer.cs">
+    <Compile Include="03_ModifyObjectApplication\ModifyObjectForm.Designer.cs">
       <DependentUpon>ModifyObjectForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="BeamApplication\BeamAppForm.resx">
+    <EmbeddedResource Include="01_BeamApplication\BeamAppForm.resx">
       <DependentUpon>BeamAppForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="BoltArrayApplication\BoltArray.resx">
+    <EmbeddedResource Include="04_BoltArrayApplication\BoltArray.resx">
       <DependentUpon>BoltArray.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ContourPlateApplication\ContourPlateForm.resx">
+    <EmbeddedResource Include="02_ContourPlateApplication\ContourPlateForm.resx">
       <DependentUpon>ContourPlateForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CutAndFittingApplication\CutAndFittingForm.resx">
+    <EmbeddedResource Include="05_CutAndFittingApplication\CutAndFittingForm.resx">
       <DependentUpon>CutAndFittingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="06_AddWeldApplication\AddWeldForm.resx">
+      <DependentUpon>AddWeldForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="07_EnumerateApplication\EnumerateForm.resx">
+      <DependentUpon>EnumerateForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainMenu.resx">
       <DependentUpon>MainMenu.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ModifyObjectApplication\ModifyObjectForm.resx">
+    <EmbeddedResource Include="03_ModifyObjectApplication\ModifyObjectForm.resx">
       <DependentUpon>ModifyObjectForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">

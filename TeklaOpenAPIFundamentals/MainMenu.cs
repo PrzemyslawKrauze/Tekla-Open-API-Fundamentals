@@ -41,5 +41,15 @@ namespace TeklaOpenAPIFundamentals
         {
             new CutAndFittingForm().Show();
         }
+
+        private void AddWeldButton_Click(object sender, EventArgs e)
+        {
+            new AddWeldForm().Show();
+        }
+
+        private void EnumerateButton_Click(object sender, EventArgs e)
+        {
+            new EnumerateForm().Show(); 
+        }
     }
 }
