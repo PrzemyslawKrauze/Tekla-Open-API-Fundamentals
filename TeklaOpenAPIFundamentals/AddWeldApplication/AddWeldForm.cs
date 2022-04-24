@@ -14,7 +14,7 @@ using TSM = Tekla.Structures.Model;
 using Tekla.Structures.Model;
 using Tekla.Structures.Model.UI;
 
-namespace TeklaOpenAPIFundamentals.AddWeldApplication
+namespace TeklaOpenAPIFundamentals
 {
     public partial class AddWeldForm : Form
     {

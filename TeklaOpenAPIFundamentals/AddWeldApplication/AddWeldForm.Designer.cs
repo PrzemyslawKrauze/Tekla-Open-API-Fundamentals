@@ -1,4 +1,4 @@
-﻿namespace TeklaOpenAPIFundamentals.AddWeldApplication
+﻿namespace TeklaOpenAPIFundamentals
 {
     partial class AddWeldForm
     {
