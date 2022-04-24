@@ -32,9 +32,14 @@ namespace TeklaOpenAPIFundamentals
             new ModifyObjectForm().Show();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void BoltArrayButtton_Click(object sender, EventArgs e)
         {
             new BoltArray().Show();
+        }
+
+        private void CutAndFittingButtton_Click(object sender, EventArgs e)
+        {
+            new CutAndFittingForm().Show();
         }
     }
 }

@@ -32,6 +32,7 @@
             this.ContourPlateButton = new System.Windows.Forms.Button();
             this.ModifyObjectButton = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.CutAndFittingButtton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // BeamApplicationButton
@@ -72,13 +73,24 @@
             this.button1.TabIndex = 3;
             this.button1.Text = "BoltArrayApplication";
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.button1.Click += new System.EventHandler(this.BoltArrayButtton_Click);
+            // 
+            // CutAndFittingButtton
+            // 
+            this.CutAndFittingButtton.Location = new System.Drawing.Point(12, 128);
+            this.CutAndFittingButtton.Name = "CutAndFittingButtton";
+            this.CutAndFittingButtton.Size = new System.Drawing.Size(220, 23);
+            this.CutAndFittingButtton.TabIndex = 4;
+            this.CutAndFittingButtton.Text = "CutAndFittingApplication";
+            this.CutAndFittingButtton.UseVisualStyleBackColor = true;
+            this.CutAndFittingButtton.Click += new System.EventHandler(this.CutAndFittingButtton_Click);
             // 
             // MainMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(244, 270);
+            this.Controls.Add(this.CutAndFittingButtton);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.ModifyObjectButton);
             this.Controls.Add(this.ContourPlateButton);
@@ -95,5 +107,6 @@
         private System.Windows.Forms.Button ContourPlateButton;
         private System.Windows.Forms.Button ModifyObjectButton;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button CutAndFittingButtton;
     }
 }

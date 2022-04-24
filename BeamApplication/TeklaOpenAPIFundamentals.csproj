@@ -7,8 +7,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{486B1FA2-1EF7-4719-B4E2-A5F153022ABB}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>BeamApplication</RootNamespace>
-    <AssemblyName>BeamApplication</AssemblyName>
+    <RootNamespace>TeklaOpenAPIFundamentals</RootNamespace>
+    <AssemblyName>TeklaOpenAPIFundamentals</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -82,16 +82,22 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddWeldApplication\AddWeldForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddWeldApplication\AddWeldForm.Designer.cs">
+      <DependentUpon>AddWeldForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="BeamApplication\BeamAppForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="BeamApplication\BeamAppForm.Designer.cs">
       <DependentUpon>BeamAppForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="BoltArray.cs">
+    <Compile Include="BoltArrayApplication\BoltArray.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="BoltArray.Designer.cs">
+    <Compile Include="BoltArrayApplication\BoltArray.Designer.cs">
       <DependentUpon>BoltArray.cs</DependentUpon>
     </Compile>
     <Compile Include="ContourPlateApplication\ContourPlateForm.cs">
@@ -99,6 +105,12 @@
     </Compile>
     <Compile Include="ContourPlateApplication\ContourPlateForm.Designer.cs">
       <DependentUpon>ContourPlateForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CutAndFittingApplication\CutAndFittingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CutAndFittingApplication\CutAndFittingForm.Designer.cs">
+      <DependentUpon>CutAndFittingForm.cs</DependentUpon>
     </Compile>
     <Compile Include="MainMenu.cs">
       <SubType>Form</SubType>
@@ -117,11 +129,14 @@
     <EmbeddedResource Include="BeamApplication\BeamAppForm.resx">
       <DependentUpon>BeamAppForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="BoltArray.resx">
+    <EmbeddedResource Include="BoltArrayApplication\BoltArray.resx">
       <DependentUpon>BoltArray.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ContourPlateApplication\ContourPlateForm.resx">
       <DependentUpon>ContourPlateForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CutAndFittingApplication\CutAndFittingForm.resx">
+      <DependentUpon>CutAndFittingForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainMenu.resx">
       <DependentUpon>MainMenu.cs</DependentUpon>
@@ -137,6 +152,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
